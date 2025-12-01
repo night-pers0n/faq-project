@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #e6fff0;
+  
+  --default-font-type: "Arial";
+  
+  --base-font-size: 1.15rem;
+  --h1-font-size: 2rem;
+  
+  --primary-padding: 1.8em 2em;
+  
+  --default-border-width: 0.05em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  font-size: var(--base-font-size);
+  font-family: var(--default-font-type);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+.main-header {
+  background-color: var(--primary-color);
+  text-align: center;
+  
+  padding: var(--primary-padding);
+  
+  border-bottom: var(--default-border-width) #cfe6d8 inset;
+}
+
+#faq-section {
+  background-color: var(--secondary-color);
+  
+  padding: var(--primary-padding);
+}
+
+
+
